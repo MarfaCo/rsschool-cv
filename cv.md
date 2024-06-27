@@ -1,13 +1,12 @@
-----
+
 
 # Mariia Shulha
 
-----
+
 ## Contacts:
 - **Discord:** @marfa512
 - **GitHub:** [MarfaCo](https://github.com/MarfaCo)
--
-----
+
 
 ## About Me
 
@@ -15,7 +14,6 @@ I believe that continuous learning is the key to success and development, both p
 
 In my work, I am always looking for opportunities to grow and improve my skills. I am convinced that the ability to adapt quickly to new challenges and technologies is critically important in today's rapidly changing world.
 
-----
 
 ## Skills
 
@@ -24,7 +22,6 @@ In my work, I am always looking for opportunities to grow and improve my skills.
 - Git, GitHub
 - VS Code, Figma
 
-----
 
 ## Code example
 
@@ -42,21 +39,18 @@ function primeNum (n) {
 }
 ```
 
-----
 
 ## Experience
 
 CV (educational project)
 https://MarfaCo.github.io/rsschool-cv/
 
-----
 
 ## Education
 
 - Bachelor's Degree (Enterprise Management)
 - HTML Academy
 
-----
 
 ## English
 
