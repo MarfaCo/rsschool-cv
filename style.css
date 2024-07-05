@@ -1,3 +1,100 @@
-body {
-  background-color: green;
+.body-page {
+  margin-top: 0;
+  background-image: linear-gradient(
+    to right,
+    #093737 50%,
+    #18232B 50%
+  );
+  font-family: "Roboto Slab", serif;
+}
+
+.cv-page {
+  width-max: 1440px;
+  margin: 0 auto;
+}
+
+/* !!!!!!!!!!!!!!!!!! header !!!!!!!!!!!!!!!!!! */
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+/* !!!!!!!!!!!!!! Name and menu !!!!!!!!!!!!!! */
+
+.header-container {
+  width: 885px;
+  background: url(assets/images/BG-Header.jpg) top right no-repeat;
+  font-family: "Roboto Slab", serif;
+}
+
+.header-name {
+  margin-top: 112px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  white-space: pre-wrap;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 85px;
+  color: #E1E0D6;
+}
+
+.header-dev {
+  margin-left: 100px;
+  white-space: pre-wrap;
+  font-size: 26px;
+  font-weight: 400;
+  color: #E1E0D6;
+}
+
+/* !!!!!!!!!!!!!!!!!! menu !!!!!!!!!!!!!!!!!! */
+
+.header-menu {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: 35px;
+  padding: 0;
+  width: 480px;
+  height: 185px;
+}
+
+.ul-header-menu {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 4px;
+}
+
+.menu-item {
+  margin-bottom: -20px;
+  display: flex;
+  width: 91px;
+  height: 105px;
+  background-image: url(assets/icons/Menu-it.png);
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item:hover {
+  background-image: url(assets/icons/Menu-it-focus.png);
+}
+
+.menu-item-link {
+  text-decoration: none;
+  font-size: 15px;
+  color: #E1E0D6;
+}
+
+.menu-item-link:hover {
+  color: #DF621B;
+}
+
+.menu-code {
+  margin-left: auto;
+  margin-right: 9px;
+}
+
+.menu-experience {
+  margin-left: 141px;
 }
