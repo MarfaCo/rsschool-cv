@@ -133,7 +133,126 @@
 
 /* !!!!!!!!!!!!!!!!!!! main !!!!!!!!!!!!!!!!!!! */
 
+.main {
+  display: flex;
+  justify-content: center;
 
+}
+
+.contacts-skills {
+  width: 557px;
+  background: #093737;
+}
+
+/* !!!!!!!!!!!!!!!!!!! contacts !!!!!!!!!!!!!!!!!!! */
+
+.contacts {
+  margin-top: 87px;
+  margin-left: 90px;
+  width: 290px;
+  height: 370px;
+}
+
+.contacts-header {
+  position: relative;
+  top: -357px;
+  left: 84px;
+  font-family: "Roboto Slab", "Pridi Light", serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #DF621B;
+}
+
+.li-contacts {
+  position: relative;
+  top: -296px;
+  left: 68px;
+  margin-bottom: 15px;
+  width: 178px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  font-family: "Roboto Slab", "Pridi Light", serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #DF621B;
+}
+
+.discord-ico {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.tg-ico {
+  display: inline-block;
+  margin-right: 23px;
+}
+
+.email-ico {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+/* !!!!!!!!!!!!!!!!!!! skills !!!!!!!!!!!!!!!!!!! */
+
+.skills {
+  margin-top: 100px;
+  margin-left: 170px;
+  width: 264px;
+  height: 492px;
+}
+
+.skills-header {
+  position: relative;
+  top: -472px;
+  left: 92px;
+  font-family: "Roboto Slab", "Pridi Light", serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #DF621B;
+}
+
+.ul-skills {
+  position: relative;
+  top: -410px;
+  left: 128px;
+  width: 98px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.li-skills {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 43px;
+  list-style-type: none;
+}
+
+.html5-logo {
+  margin-right: 19px;
+}
+
+.git-logo {
+  margin-right: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+.about-others {
+  width: 883px;
+  background: #18232B;
+}
 
 
 
