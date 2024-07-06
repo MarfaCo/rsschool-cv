@@ -1,3 +1,36 @@
+/* !!!!!!!!!!! font "Roboto Slab" !!!!!!!!!!! */
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/RobotoSlab-Regular.woff2") format("woff2"),
+      url("assets/fonts/RobotoSlab-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/RobotoSlab-Medium.woff2") format("woff2"),
+      url("assets/fonts/RobotoSlab-Medium.woff") format("woff");
+}
+
+/* !!!!!!!!!!! font "Roboto Mono" !!!!!!!!!!! */
+
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/RobotoMono-Medium.woff2") format("woff2"),
+      url("assets/fonts/RobotoMono-Medium.woff") format("woff");
+}
+
+/* !!!!!!!!!!!!!!!! page style !!!!!!!!!!!!!!!! */
+
 .body-page {
   margin-top: 0;
   background-image: linear-gradient(
@@ -5,7 +38,7 @@
     #093737 50%,
     #18232B 50%
   );
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", "Pridi Light", serif;
 }
 
 .cv-page {
@@ -96,5 +129,5 @@
 }
 
 .menu-experience {
-  margin-left: 141px;
+  margin-left: 142px;
 }
