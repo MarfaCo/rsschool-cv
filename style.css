@@ -114,9 +114,11 @@ html {
 
 .menu-item:hover {
   background-image: url(assets/icons/Menu-it-focus.png);
+  cursor: pointer;
 }
 
 .menu-item-link {
+  padding: 35px;
   text-decoration: none;
   font-size: 15px;
   color: #E1E0D6;
