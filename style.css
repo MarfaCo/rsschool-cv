@@ -31,6 +31,10 @@
 
 /* !!!!!!!!!!!!!!!! page style !!!!!!!!!!!!!!!! */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .body-page {
   margin: 0;
   background-image: linear-gradient(
