@@ -32,18 +32,13 @@
 /* !!!!!!!!!!!!!!!! page style !!!!!!!!!!!!!!!! */
 
 .body-page {
-  margin-top: 0;
+  margin: 0;
   background-image: linear-gradient(
     to right,
     #093737 50%,
     #18232B 50%
   );
   font-family: "Roboto Slab", "Pridi Light", serif;
-}
-
-.cv-page {
-  width-max: 1440px;
-  margin: 0 auto;
 }
 
 /* !!!!!!!!!!!!!!!!!! header !!!!!!!!!!!!!!!!!! */
@@ -53,12 +48,16 @@
   justify-content: center;
 }
 
+.header-photo-wrapper {
+  height: 615px;
+}
+
 /* !!!!!!!!!!!!!! Name and menu !!!!!!!!!!!!!! */
 
 .header-container {
-  width: 885px;
+  width: 883px;
   background: url(assets/images/BG-Header.jpg) top right no-repeat;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", "Pridi Light", serif;
 }
 
 .header-name {
@@ -131,3 +130,23 @@
 .menu-experience {
   margin-left: 142px;
 }
+
+/* !!!!!!!!!!!!!!!!!!! main !!!!!!!!!!!!!!!!!!! */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
