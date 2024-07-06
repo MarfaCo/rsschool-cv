@@ -109,6 +109,7 @@ html {
   background-image: url(assets/icons/Menu-it.png);
   list-style-type: none;
   justify-content: center;
+  text-align: center;
   align-items: center;
 }
 
@@ -118,7 +119,7 @@ html {
 }
 
 .menu-item-link {
-  padding: 35px;
+  padding: 30px;
   text-decoration: none;
   font-size: 15px;
   color: #E1E0D6;
@@ -179,25 +180,76 @@ html {
   display: flex;
   align-items: center;
   list-style-type: none;
+  cursor: pointer;
   font-family: "Roboto Slab", "Pridi Light", serif;
   font-size: 24px;
   font-weight: 400;
   color: #DF621B;
 }
 
-.discord-ico {
-  display: inline-block;
-  margin-right: 15px;
+.li-contacts:hover {
+  color: #E1E0D6;
 }
 
-.tg-ico {
-  display: inline-block;
-  margin-right: 23px;
-}
-
+.discord-ico,
+.tg-ico,
 .email-ico {
   display: inline-block;
-  margin-right: 18px;
+  z-index: 1;
+}
+
+.text-discord {
+  display: inline-block;
+  position: absolute;
+  right: 21px;
+}
+
+.discord-ico-hover{
+  position: absolute;
+  left: 1px;
+  z-index: 0;
+}
+
+.li-contacts:hover .discord-ico-hover{
+  position: absolute;
+  left: 0px;
+  z-index: 2;
+}
+
+.text-tg {
+  display: inline-block;
+  position: absolute;
+  right: -1px;
+}
+
+.tg-ico-hover {
+  position: relative;
+  left: -47px;
+  z-index: 0;
+}
+
+.li-contacts:hover .tg-ico-hover{
+  position: absolute;
+  left: 0px;
+  z-index: 2;
+}
+
+.text-email {
+  display: inline-block;
+  position: absolute;
+  right: 29px;
+}
+
+.email-ico-hover {
+  position: relative;
+  left: -52px;
+  z-index: 0;
+}
+
+.li-contacts:hover .email-ico-hover{
+  position: absolute;
+  left: 0px;
+  z-index: 2;
 }
 
 /* !!!!!!!!!!!!!!!!!!! skills !!!!!!!!!!!!!!!!!!! */
@@ -246,7 +298,7 @@ html {
   margin-right: 12px;
 }
 
-
+/* !!!!!!!!!!!!!!!!!!! about me !!!!!!!!!!!!!!!!!!! */
 
 
 
