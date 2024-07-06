@@ -151,6 +151,11 @@ html {
   background: #093737;
 }
 
+.about-others {
+  width: 883px;
+  background: #18232B;
+}
+
 /* !!!!!!!!!!!!!!!!!!! contacts !!!!!!!!!!!!!!!!!!! */
 
 .contacts {
@@ -298,21 +303,54 @@ html {
   margin-right: 12px;
 }
 
-/* !!!!!!!!!!!!!!!!!!! about me !!!!!!!!!!!!!!!!!!! */
-
-
-
-
-
-
-
-
 .about-others {
   width: 883px;
   background: #18232B;
 }
 
+/* !!!!!!!!!!!!!!!!!!! about me !!!!!!!!!!!!!!!!!!! */
 
+.about {
+  position: relative;
+}
+
+.about-ico {
+  position: relative;
+  top: 87px;
+  left: 87px;
+}
+
+.about-header {
+  margin-left: 169px;
+  margin-top: -33px;
+  font-family: "Roboto Slab", "Pridi Light", serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #DF621B;
+}
+
+.about-paragraph-first,
+.about-paragraph-second {
+  margin-top: 64px;
+  margin-left: 110px;
+  line-height: 35px;
+  white-space: pre-wrap;
+  font-size: 20px;
+  color: #E4BC2B;
+}
+
+.about-paragraph-second {
+  margin-top: -72px;
+}
+
+.link-about-code-img {
+  display: inline-block;
+  position: absolute;
+  top: 124px;
+  left: 224px;
+}
+
+/* !!!!!!!!!!!!!!!!!!! code !!!!!!!!!!!!!!!!!!! */
 
 
 
