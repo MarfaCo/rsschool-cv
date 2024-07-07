@@ -37,11 +37,7 @@ html {
 
 .body-page {
   margin: 0;
-  background-image: linear-gradient(
-    to right,
-    #093737 50%,
-    #18232B 50%
-  );
+  background-color: #201C12;
   font-family: "Roboto Slab", "Pridi Light", serif;
 }
 
@@ -583,6 +579,12 @@ html {
 /* !!!!!!!!!!!!!!! footer !!!!!!!!!!!!!!! */
 
 .footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-info {
+  width: 1440px;
   height: 140px;
   display: flex;
   justify-content: space-around;
