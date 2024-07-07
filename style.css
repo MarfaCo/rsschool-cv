@@ -473,25 +473,112 @@ html {
   left: 153px;
 }
 
+/* !!!!!!!!!!!!!!! education !!!!!!!!!!!!!!! */
 
+.education {
+  position: relative;
+}
 
+.education-ico{
+  position: relative;
+  top: 8px;
+  left: 84px;
+}
 
+.education-header {
+  position: relative;
+  top: -154px;
+  left: 164px;
+  font-family: "Roboto Slab", "Pridi Light", serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #DF621B;
+}
 
+.ed-paragraph-first{
+  margin-top: -130px;
+  margin-left: 80px;
+  white-space: pre-wrap;
+  font-size: 25px;
+  line-height: 35px;
+  color: #E4BC2B;
+}
 
+.ed-paragraph-second {
+  margin-top: -60px;
+  margin-left: 80px;
+  white-space: pre-wrap;
+  font-size: 25px;
+  line-height: 35px;
+  color: #E4BC2B;
+}
 
+.link-ed-en-img {
+  display: inline-block;
+  position: absolute;
+  top: 140px;
+  left: 89px;
+}
 
+.marker-ed-first {
+  display: inline-block;
+  position: absolute;
+  top: 239px;
+  left: 83px;
+}
 
+.marker-ed-second {
+  display: inline-block;
+  position: absolute;
+  top: 309px;
+  left: 83px;
+}
 
+/* !!!!!!!!!!!!!!! english !!!!!!!!!!!!!!! */
 
+.english {
+  padding-bottom: 80px;
+  position: relative;
+}
 
+.english-ico{
+  position: relative;
+  top: -2px;
+  left: 84px;
+}
 
+.english-header {
+  position: relative;
+  top: -169px;
+  left: 174px;
+  font-family: "Roboto Slab", "Pridi Light", serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #DF621B;
+}
 
+.en-paragraph {
+  margin-top: -146px;
+  margin-left: 148px;
+  white-space: pre-wrap;
+  font-size: 25px;
+  line-height: 35px;
+  color: #E4BC2B;
+}
 
+.link-en-img {
+  display: inline-block;
+  position: absolute;
+  top: 166px;
+  left: 159px;
+}
 
-
-
-
-
+.marker-en {
+  display: inline-block;
+  position: absolute;
+  top: 223px;
+  left: 153px;
+}
 
 
 
