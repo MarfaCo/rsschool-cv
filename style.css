@@ -609,6 +609,28 @@ html {
   background-color: #061B18;
 }
 
+.rs-school-course {
+  margin-left: 50px;
+  width: 189px;
+  height: 70px;
+}
+
+.rs-school-logo {
+  display: block;
+}
+
+.rs-school-logo-focus {
+  display: none;
+}
+
+.rs-school-course:hover .rs-school-logo {
+  display: none;
+}
+
+.rs-school-course:hover .rs-school-logo-focus {
+  display: block;
+}
+
 .gh-profile {
   width: 70px;
   height: 70px;
@@ -616,10 +638,20 @@ html {
   margin-right: auto;
 }
 
-.rs-school-course {
-  display: inline-block;
-  margin-left: 50px;
-  height: 70px;
+.gh-footer-logo {
+  display: block;
+}
+
+.gh-footer-logo-focus {
+  display: none;
+}
+
+.gh-profile:hover .gh-footer-logo {
+  display: none;
+}
+
+.gh-profile:hover .gh-footer-logo-focus {
+  display: block;
 }
 
 .copyright {
