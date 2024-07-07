@@ -107,6 +107,7 @@ html {
   justify-content: center;
   text-align: center;
   align-items: center;
+  transition: background-image 0.8s;
 }
 
 .menu-item:hover {
@@ -119,6 +120,7 @@ html {
   text-decoration: none;
   font-size: 15px;
   color: #E1E0D6;
+  transition: color 0.8s;
 }
 
 .menu-item-link:hover {
@@ -186,6 +188,7 @@ html {
   font-size: 24px;
   font-weight: 400;
   color: #DF621B;
+  transition: color 0.6s;
 }
 
 .li-contacts:hover {
@@ -195,8 +198,9 @@ html {
 .discord-ico,
 .tg-ico,
 .email-ico {
-  display: inline-block;
-  z-index: 1;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 .text-discord {
@@ -205,19 +209,21 @@ html {
   top: 5px;
   right: 21px;
   color: #DF621B;
+  transition: color 0.5s;
 }
 
 .discord-ico-hover{
   position: absolute;
   top: 1px;
   left: 0px;
-  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
 .li-contacts:hover .discord-ico-hover{
   position: absolute;
   left: 0px;
-  z-index: 2;
+  opacity: 1;
 }
 
 .text-tg {
@@ -226,20 +232,22 @@ html {
   top: 5px;
   right: -1px;
   color: #DF621B;
+  transition: color 0.5s;
 }
 
 .tg-ico-hover {
-  position: relative;
-  top: 3px;
-  left: -48px;
-  z-index: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
 .li-contacts:hover .tg-ico-hover{
   position: absolute;
   top: 0px;
-  left: 1px;
-  z-index: 2;
+  left: 0px;
+  opacity: 1;
 }
 
 .text-email {
@@ -248,26 +256,34 @@ html {
   top: 4px;
   right: 31px;
   color: #DF621B;
+  transition: color 0.5s;
 }
 
 .email-ico-hover {
-  position: relative;
-  top: 4px;
-  left: -52px;
-  z-index: 0;
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
 .li-contacts:hover .email-ico-hover{
   position: absolute;
-  top: 2px;
+  top: 1px;
   left: 0px;
-  z-index: 2;
+  opacity: 1;
 }
 
 .li-contacts:hover .text-discord,
 .li-contacts:hover .text-tg,
 .li-contacts:hover .text-email {
   color: #E1E0D6;
+}
+
+.li-contacts:hover .discord-ico,
+.li-contacts:hover .tg-ico,
+.li-contacts:hover .email-ico{
+  opacity: 0;
 }
 
 /* !!!!!!!!!!!!!!!!!!! skills !!!!!!!!!!!!!!!!!!! */
@@ -621,19 +637,23 @@ html {
 }
 
 .rs-school-logo {
-  display: block;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.8s;
 }
 
 .rs-school-logo-focus {
-  display: none;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.8s;
 }
 
 .rs-school-course:hover .rs-school-logo {
-  display: none;
+  opacity: 0;
 }
 
 .rs-school-course:hover .rs-school-logo-focus {
-  display: block;
+  opacity: 1;
 }
 
 .gh-profile {
@@ -643,20 +663,24 @@ html {
   margin-right: auto;
 }
 
-.gh-footer-logo {
-  display: block;
+.gh-profile .gh-footer-logo {
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.6s;
 }
 
-.gh-footer-logo-focus {
-  display: none;
+.gh-profile .gh-footer-logo-focus {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.6s;
 }
 
 .gh-profile:hover .gh-footer-logo {
-  display: none;
+  opacity: 0;
 }
 
 .gh-profile:hover .gh-footer-logo-focus {
-  display: block;
+  opacity: 1;
 }
 
 .copyright {
