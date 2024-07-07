@@ -421,5 +421,77 @@ html {
   color: #107DBA;
 }
 
+.link-code-exp-img {
+  display: inline-block;
+  position: absolute;
+  top: 158px;
+  left: 761px;
+}
+
+/* !!!!!!!!!!!!!!! experience !!!!!!!!!!!!!!! */
+
+.experience {
+  position: relative;
+}
+
+.experience-ico{
+  position: relative;
+  top: -118px;
+  left: 620px;
+}
+
+.experience-header {
+  position: relative;
+  top: -275px;
+  left: 458px;
+  font-family: "Roboto Slab", "Pridi Light", serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #DF621B;
+}
+
+.experience-paragraph {
+  margin-top: -290px;
+  margin-left: 210px;
+  white-space: pre-wrap;
+  font-size: 25px;
+  line-height: 35px;
+  color: #E4BC2B;
+}
+
+.link-experience-and-ed-img {
+  display: inline-block;
+  position: absolute;
+  top: -75px;
+  left: 159px;
+}
+
+.marker {
+  display: inline-block;
+  position: absolute;
+  top: 128px;
+  left: 153px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
