@@ -202,12 +202,15 @@ html {
 .text-discord {
   display: inline-block;
   position: absolute;
+  top: 5px;
   right: 21px;
+  color: #DF621B;
 }
 
 .discord-ico-hover{
   position: absolute;
-  left: 1px;
+  top: 1px;
+  left: 0px;
   z-index: 0;
 }
 
@@ -220,37 +223,51 @@ html {
 .text-tg {
   display: inline-block;
   position: absolute;
+  top: 5px;
   right: -1px;
+  color: #DF621B;
 }
 
 .tg-ico-hover {
   position: relative;
-  left: -47px;
+  top: 3px;
+  left: -48px;
   z-index: 0;
 }
 
 .li-contacts:hover .tg-ico-hover{
   position: absolute;
-  left: 0px;
+  top: 0px;
+  left: 1px;
   z-index: 2;
 }
 
 .text-email {
   display: inline-block;
   position: absolute;
-  right: 29px;
+  top: 4px;
+  right: 31px;
+  color: #DF621B;
 }
 
 .email-ico-hover {
   position: relative;
+  top: 4px;
   left: -52px;
   z-index: 0;
 }
 
 .li-contacts:hover .email-ico-hover{
   position: absolute;
+  top: 2px;
   left: 0px;
   z-index: 2;
+}
+
+.li-contacts:hover .text-discord,
+.li-contacts:hover .text-tg,
+.li-contacts:hover .text-email {
+  color: #E1E0D6;
 }
 
 /* !!!!!!!!!!!!!!!!!!! skills !!!!!!!!!!!!!!!!!!! */
@@ -585,18 +602,28 @@ html {
 
 .footer-info {
   width: 1440px;
-  height: 140px;
+  height: 140px;;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #061B18;
 }
 
-.rs-school-logo {
+.gh-profile {
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rs-school-course {
+  display: inline-block;
+  margin-left: 50px;
   height: 70px;
 }
 
 .copyright {
+  margin-right: 50px;
   width: 182px;
   height: 32px;
   display: flex;
