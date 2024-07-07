@@ -480,17 +480,24 @@ html {
 }
 
 .experience-paragraph {
-  margin-top: -290px;
-  margin-left: 210px;
+  display: inline-block;
+  position: relative;
+  top: -315px;
+  left: 210px;
   white-space: pre-wrap;
   font-size: 25px;
   line-height: 35px;
   color: #E4BC2B;
+  z-index: 1;
 }
 
 .experience-paragraph-link {
   text-decoration: none;
   color: #E4BC2B;
+  transition: color 0.5s;
+}
+.experience-paragraph-link:hover {
+  color: #DF621B;
 }
 
 .link-experience-and-ed-img {
@@ -515,13 +522,13 @@ html {
 
 .education-ico{
   position: relative;
-  top: 8px;
+  top: -305px;
   left: 84px;
 }
 
 .education-header {
   position: relative;
-  top: -154px;
+  top: -466px;
   left: 164px;
   font-family: "Roboto Slab", "Pridi Light", serif;
   font-size: 50px;
@@ -530,7 +537,7 @@ html {
 }
 
 .ed-paragraph-first{
-  margin-top: -130px;
+  margin-top: -445px;
   margin-left: 80px;
   white-space: pre-wrap;
   font-size: 25px;
@@ -550,21 +557,21 @@ html {
 .link-ed-en-img {
   display: inline-block;
   position: absolute;
-  top: 140px;
+  top: -170px;
   left: 89px;
 }
 
 .marker-ed-first {
   display: inline-block;
   position: absolute;
-  top: 239px;
+  top: -76px;
   left: 83px;
 }
 
 .marker-ed-second {
   display: inline-block;
   position: absolute;
-  top: 309px;
+  top: -6px;
   left: 83px;
 }
 
