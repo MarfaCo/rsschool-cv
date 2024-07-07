@@ -472,6 +472,11 @@ html {
   color: #E4BC2B;
 }
 
+.experience-paragraph-link {
+  text-decoration: none;
+  color: #E4BC2B;
+}
+
 .link-experience-and-ed-img {
   display: inline-block;
   position: absolute;
