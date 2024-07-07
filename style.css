@@ -580,5 +580,50 @@ html {
   left: 153px;
 }
 
+/* !!!!!!!!!!!!!!! footer !!!!!!!!!!!!!!! */
+
+.footer {
+  height: 140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #061B18;
+}
+
+.rs-school-logo {
+  height: 70px;
+}
+
+.copyright {
+  width: 182px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright-symbol {
+  font-size: 40px;
+  color: #E1E0D6;
+}
+
+.copyright-text {
+  display: inline-block;
+  white-space: pre-wrap;
+  font-size: 12px;
+  line-height: 14px;
+  color: #E1E0D6;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
